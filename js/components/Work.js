@@ -14,7 +14,7 @@ const Work = ({ content }) => {
         {
             title: "HistoricVeda (Frontend)",
             description: "The frontend for a platform that allows users to search and view historical data about places. it was my hackathon project and it is responsive",
-            image: "https://placehold.co/300x200",
+            image: ".\js\components\images\projects\historicveda-preview.png",
             tags: ["HTML", "CSS", "JavaScript"],
             liveLink: "https://kunalgupta25.github.io/HistoricVeda/",
             githubLink: "https://github.com/KunalGupta25/HistoricVeda"
@@ -22,7 +22,7 @@ const Work = ({ content }) => {
         {
             title: "Portfolio Website",
             description: "Personal portfolio website built with React and TailwindCSS My first fully ready project",
-            image: "https://placehold.co/300x200",
+            image: ".\js\components\images\projects\portfolio-preview.png",
             tags: ["React", "TailwindCSS", "JavaScript", "HTML", "CSS"],
             liveLink: "https://personal-portfolio-azure-three.vercel.app/",
             githubLink: "https://github.com/KunalGupta25/portfolio"
