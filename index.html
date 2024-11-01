@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <!-- Core Dependencies -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    
+    <!-- Additional Dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    
+    <!-- Add favicon to prevent 404 -->
+    <link rel="icon" href="data:,">
+    
+    <style>
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* Hide scrollbar for IE, Edge and Firefox */
+        .scrollbar-hide {
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+
+        /* Apply to body to hide main page scrollbar */
+        body {
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+        
+        body::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 scrollbar-hide">
+    <div id="root"></div>
+
+    <!-- Load data first -->
+    <script type="text/babel" src="data/content.js"></script>
+    
+    <!-- Then load components -->
+    <script type="text/babel" src="js/components/Sidebar.js"></script>
+    <script type="text/babel" src="js/components/Home.js"></script>
+    <script type="text/babel" src="js/components/Resume.js"></script>
+    <script type="text/babel" src="js/components/Work.js"></script>
+    <script type="text/babel" src="js/components/Contact.js"></script>
+    
+    <!-- Load App last -->
+    <script type="text/babel" src="js/App.js"></script>
+</body>
+</html>
