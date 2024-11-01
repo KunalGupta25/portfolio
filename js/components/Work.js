@@ -12,37 +12,37 @@ const Work = ({ content }) => {
     // Sample projects data - you can modify this
     const projects = [
         {
-            title: "E-commerce Platform",
-            description: "A full-stack e-commerce solution built with React and Node.js",
+            title: "HistoricVeda (Frontend)",
+            description: "The frontend for a platform that allows users to search and view historical data about places. it was my hackathon project and it is responsive",
             image: "https://placehold.co/300x200",
-            tags: ["React", "Node.js", "MongoDB"],
-            liveLink: "#",
-            githubLink: "#"
+            tags: ["HTML", "CSS", "JavaScript"],
+            liveLink: "https://kunalgupta25.github.io/HistoricVeda/",
+            githubLink: "https://github.com/KunalGupta25/HistoricVeda"
         },
         {
             title: "Portfolio Website",
-            description: "Personal portfolio website built with React and TailwindCSS",
+            description: "Personal portfolio website built with React and TailwindCSS My first fully ready project",
             image: "https://placehold.co/300x200",
-            tags: ["React", "TailwindCSS"],
-            liveLink: "#",
-            githubLink: "#"
+            tags: ["React", "TailwindCSS", "JavaScript", "HTML", "CSS"],
+            liveLink: "https://personal-portfolio-azure-three.vercel.app/",
+            githubLink: "https://github.com/KunalGupta25/portfolio"
         },
-        {
-            title: "Task Management App",
-            description: "A task management application with real-time updates",
-            image: "https://placehold.co/300x200",
-            tags: ["React", "Firebase", "Material-UI"],
-            liveLink: "#",
-            githubLink: "#"
-        },
-        {
-            title: "Weather Dashboard",
-            description: "Real-time weather dashboard using OpenWeather API",
-            image: "https://placehold.co/300x200",
-            tags: ["JavaScript", "API", "Bootstrap"],
-            liveLink: "#",
-            githubLink: "#"
-        }
+        // {
+        //     title: "Task Management App",
+        //     description: "A task management application with real-time updates",
+        //     image: "https://placehold.co/300x200",
+        //     tags: ["React", "Firebase", "Material-UI"],
+        //     liveLink: "#",
+        //     githubLink: "#"
+        // },
+        // {
+        //     title: "Weather Dashboard",
+        //     description: "Real-time weather dashboard using OpenWeather API",
+        //     image: "https://placehold.co/300x200",
+        //     tags: ["JavaScript", "API", "Bootstrap"],
+        //     liveLink: "#",
+        //     githubLink: "#"
+        // }
     ];
 
     return (
