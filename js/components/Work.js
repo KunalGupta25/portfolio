@@ -14,7 +14,7 @@ const Work = ({ content }) => {
         {
             title: "HistoricVeda (Frontend)",
             description: "The frontend for a platform that allows users to search and view historical data about places. It was my hackathon project and it is responsive",
-            image: "https://github.com/KunalGupta25/portfolio/blob/main/js/components/images/projects/historicveda-preview.png",
+            image: "images/projects/historicveda-preview.png",
             tags: ["HTML", "CSS", "JavaScript"],
             liveLink: "https://kunalgupta25.github.io/HistoricVeda/",
             githubLink: "https://github.com/KunalGupta25/HistoricVeda"
